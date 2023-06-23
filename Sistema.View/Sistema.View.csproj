@@ -6,4 +6,9 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Sistema.Entidades\Sistema.Entidades.csproj" />
+    <ProjectReference Include="..\Sistema.Model\Sistema.Model.csproj" />
+  </ItemGroup>
+
 </Project>

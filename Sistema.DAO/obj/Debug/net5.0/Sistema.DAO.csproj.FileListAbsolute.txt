@@ -1,0 +1,15 @@
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\bin\Debug\net5.0\Sistema.DAO.deps.json
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\bin\Debug\net5.0\Sistema.DAO.dll
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\bin\Debug\net5.0\ref\Sistema.DAO.dll
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\bin\Debug\net5.0\Sistema.DAO.pdb
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\bin\Debug\net5.0\Sistema.Entidades.dll
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\bin\Debug\net5.0\Sistema.Entidades.pdb
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\obj\Debug\net5.0\Sistema.DAO.csproj.AssemblyReference.cache
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\obj\Debug\net5.0\Sistema.DAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\obj\Debug\net5.0\Sistema.DAO.AssemblyInfoInputs.cache
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\obj\Debug\net5.0\Sistema.DAO.AssemblyInfo.cs
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\obj\Debug\net5.0\Sistema.DAO.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\obj\Debug\net5.0\Sistema.DAO.csproj.CopyComplete
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\obj\Debug\net5.0\Sistema.DAO.dll
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\obj\Debug\net5.0\ref\Sistema.DAO.dll
+C:\Users\vinicius.afluiz\source\repos\Sistema\Sistema.DAO\obj\Debug\net5.0\Sistema.DAO.pdb

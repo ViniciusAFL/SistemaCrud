@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "Sistema.DAO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Sistema.Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sistema.DAO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sistema.DAO.dll": {}
+        }
+      },
+      "Sistema.Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Sistema.Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sistema.Entidades.dll": {}
+        }
+      },
+      "Sistema.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Sistema.DAO": "1.0.0",
+          "Sistema.Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sistema.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sistema.Model.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Sistema.DAO/1.0.0": {
+      "type": "project",
+      "path": "../Sistema.DAO/Sistema.DAO.csproj",
+      "msbuildProject": "../Sistema.DAO/Sistema.DAO.csproj"
+    },
+    "Sistema.Entidades/1.0.0": {
+      "type": "project",
+      "path": "../Sistema.Entidades/Sistema.Entidades.csproj",
+      "msbuildProject": "../Sistema.Entidades/Sistema.Entidades.csproj"
+    },
+    "Sistema.Model/1.0.0": {
+      "type": "project",
+      "path": "../Sistema.Model/Sistema.Model.csproj",
+      "msbuildProject": "../Sistema.Model/Sistema.Model.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "Sistema.Entidades >= 1.0.0",
+      "Sistema.Model >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\vinicius.afluiz\\.nuget\\packages\\": {},
@@ -41,7 +98,14 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vinicius.afluiz\\source\\repos\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+              "projectPath": "C:\\Users\\vinicius.afluiz\\source\\repos\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj"
+            },
+            "C:\\Users\\vinicius.afluiz\\source\\repos\\Sistema\\Sistema.Model\\Sistema.Model.csproj": {
+              "projectPath": "C:\\Users\\vinicius.afluiz\\source\\repos\\Sistema\\Sistema.Model\\Sistema.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

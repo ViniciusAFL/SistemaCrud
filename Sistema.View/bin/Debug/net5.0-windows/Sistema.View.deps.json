@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Sistema.View/1.0.0": {
+        "dependencies": {
+          "Sistema.Entidades": "1.0.0",
+          "Sistema.Model": "1.0.0"
+        },
+        "runtime": {
+          "Sistema.View.dll": {}
+        }
+      },
+      "Sistema.DAO/1.0.0": {
+        "dependencies": {
+          "Sistema.Entidades": "1.0.0"
+        },
+        "runtime": {
+          "Sistema.DAO.dll": {}
+        }
+      },
+      "Sistema.Entidades/1.0.0": {
+        "runtime": {
+          "Sistema.Entidades.dll": {}
+        }
+      },
+      "Sistema.Model/1.0.0": {
+        "dependencies": {
+          "Sistema.DAO": "1.0.0",
+          "Sistema.Entidades": "1.0.0"
+        },
+        "runtime": {
+          "Sistema.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sistema.View/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sistema.DAO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sistema.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sistema.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
